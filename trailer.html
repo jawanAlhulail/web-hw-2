@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html class=html>
 <head>
-    
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <title>trailers!</title>
 <style>
     .html.bodybac{
@@ -53,6 +59,8 @@
  
   li a:hover {
     background-color: #111;
+    text-decoration: none;
+    color: rgb(180, 155, 197);
   }
     .flexer{
         display: flex;
@@ -77,6 +85,7 @@
         height: 200px;
         width: 200px;
     }
+
     .dropbtn {
   background-color: rgb(111, 13, 114);
   color: black;
@@ -124,7 +133,8 @@ color: black;
         <li class=li><a  href="actors.html">actors</a></li>
         <input class=li type="text" placeholder="Search..">
         <a class=li href="https://www.instagram.com/aratanibaki/?hl=en"> <img class=insta src="img/instagram.png" height=50px width=50px ></a>
-        <li class=li><button>sign up</button></li>
+        
+        <button type="button" class="btn btn-dark">sign up</button>
 
       </ul>
       
@@ -138,17 +148,20 @@ color: black;
      </a><a href="https://www.youtube.com/watch?v=ieHh4U-QYwU"><img class=trailer src="./img/Atypical-Season-1-696x392.jpg"> 
         <h1>atypical trailer season one!! </h1> </a>
 
-
-    <div class="dropdown">
-        <button class="dropbtn">Dropdown</button>
-        <div class="dropdown-content">
-          <a href="./tvshows.html">home</a>
-          <a href="./trailer.html">trailer</a>
-          <a href="./actors.html">actors</a>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown button
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="./tvshows.html">home</a>
+            <a class="dropdown-item" href="./trailer.html">trailers</a>
+            <a class="dropdown-item" href="./actors.html">cast</a>
+          </div>
         </div>
+    
       </div>
       <footer>
-        <p>netflix.kw</p>
+        
         <p><a href="https://www.netflix.com/kw-en/"o>netflix.kw</a></p>
       </footer>
    </div>

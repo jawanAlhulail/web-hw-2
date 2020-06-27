@@ -39,6 +39,8 @@
  
   li a:hover {
     background-color: #111;
+    text-decoration: none;
+    color: rgb(180, 155, 197);
   }
   .p1{
       text-align: center;
@@ -111,3 +113,4 @@
     .dropdown-content :hover{
     color: black;
     }
+    
